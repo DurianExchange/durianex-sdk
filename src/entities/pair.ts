@@ -36,9 +36,11 @@ export class Pair {
         [tokens[0].address]: {
           ...PAIR_ADDRESS_CACHE?.[tokens[0].address],
           [tokens[1].address]: getCreate2Address(
+
               factoryAddress,
             keccak256(['bytes'], [pack(['address', 'address'], [tokens[0].address, tokens[1].address])]),
               initCodeHash
+
           )
         }
       }
@@ -55,8 +57,10 @@ export class Pair {
       tokenAmounts[0].token.chainId,
       Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token),
       18,
+
       'DURIAN-LP',
       'Durian V2'
+
     )
     this.tokenAmounts = tokenAmounts as [TokenAmount, TokenAmount]
   }

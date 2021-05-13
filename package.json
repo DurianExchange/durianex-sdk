@@ -1,14 +1,16 @@
 {
+
   "name": "@durianexchange/sdk",
   "license": "MIT",
   "version": "1.0.9",
   "description": "An SDK for building applications on top of DurianExchange.",
+
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": "https://github.com/ApeSwapFinance/apeswap-sdk",
   "keywords": [
     "pancakeswap",
     "ethereum"
