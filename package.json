@@ -1,8 +1,8 @@
 {
-  "name": "@pancakeswap-libs/sdk",
+  "name": "@durianexchange/sdk",
   "license": "MIT",
-  "version": "1.0.1",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "1.0.9",
+  "description": "An SDK for building applications on top of DurianExchange.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
