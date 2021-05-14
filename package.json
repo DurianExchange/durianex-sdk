@@ -2,7 +2,7 @@
 
   "name": "@durianexchange/sdk",
   "license": "MIT",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "An SDK for building applications on top of DurianExchange.",
 
   "main": "dist/index.js",
