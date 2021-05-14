@@ -2,7 +2,7 @@
 
   "name": "@durianexchange/sdk",
   "license": "MIT",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "An SDK for building applications on top of DurianExchange.",
 
   "main": "dist/index.js",
@@ -10,10 +10,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/ApeSwapFinance/apeswap-sdk",
+  "repository": "https://github.com/DurianExchange/durianex-sdk.git",
   "keywords": [
-    "pancakeswap",
-    "ethereum"
+    "pancakeswap","binance smart chain","sushi swap",
+    "ethereum","defi","uniswap"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
+    "@durianexchange/swap-core": "1.0.1",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
